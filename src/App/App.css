@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 .App {
   text-align: center;
 }
-
+body{
+  font-family: 'Roboto';
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;

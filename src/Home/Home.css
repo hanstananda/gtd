@@ -1,0 +1,15 @@
+.home-menu-bar{
+  height: 5vh;
+  padding-top: 3vh;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.col-sm-2_5{
+  width: 20%;
+  display: inline-block;
+}
+
+.col-sm-2_5:hover{
+  color: rgb(128, 128, 128);
+}
