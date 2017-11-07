@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './Home.css';
-
+import {Link} from 'react-router-dom';
 export default class Home extends Component {
   // constructor(props) {
   //   super(props);
@@ -8,6 +8,7 @@ export default class Home extends Component {
 
   render() {
     return (
+
       <div>
         <div className="row home-menu-bar">
           <div className="container">
@@ -15,16 +16,16 @@ export default class Home extends Component {
               Home
             </div>
             <div className="col-sm-2_5">
-              About
+              <Link to="/about">About</Link>
             </div>
             <div className="col-sm-2_5">
-              History
+              <Link to="/history">History</Link>
             </div>
             <div className="col-sm-2_5">
-              Anthem
+              <Link to="/anthem">Anthem</Link>
             </div>
             <div className="col-sm-2_5">
-              Contact Us
+              <Link to="/contact">Contact Us</Link>
             </div>
           </div>
         </div>
