@@ -10,7 +10,10 @@ $ yarn install
 $ atom .
 $ yarn start
 ```
-
+Design Specification:
+1. General Font Family: Roboto
+2. HEX Code: GTD Red - #BE1E2D
+3. Home - Coming soon Landing page: Font Family - Montserrat
 
 License
 ----
