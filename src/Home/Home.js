@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './Home.css';
 import {Link} from 'react-router-dom';
-import gtdLogo from '../logo-gtd-normal.png';
+// import gtdComingSoon from '../coming_soon.jpg';
 export default class Home extends Component {
   // constructor(props) {
   //   super(props);
@@ -10,7 +10,7 @@ export default class Home extends Component {
   render() {
     return (
 
-      <div>
+      <div className="home-body">
         <div className="row home-menu-bar">
           <div className="container">
             <div className="col-sm-2_5">
@@ -27,17 +27,6 @@ export default class Home extends Component {
             </div>
             <div className="col-sm-2_5">
               <Link to="/contact">Contact Us</Link>
-            </div>
-          </div>
-        </div>
-
-        <div className="row landing-banner">
-          <div className="col-sm-12">
-            <div className="row">
-              <img src={gtdLogo} className="landing-gtd"/>
-            </div>
-            <div className="row coming-soon">
-              COMING SOON
             </div>
           </div>
         </div>
