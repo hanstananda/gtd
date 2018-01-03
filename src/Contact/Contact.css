@@ -1,0 +1,58 @@
+.contact-menu-bar{
+    height: 10vh;
+    padding-top: 3vh;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(255,255,255,.4)
+  }
+  .contact-link{
+    color: white;
+  }
+  
+  .contact-box{
+      background-color:rgb(190, 30, 45);
+      height: 80vh;
+      position: center;
+      font-family:Monsterrat;
+  }
+  
+  h1 {
+      font-family:Monsterrat;
+      color: #FFFFFF;
+      font-weight: bold;
+      font-size:20
+  }
+  h3{
+      font-family:Monsterrat;
+      color: white;
+      text-align: center;
+      font-size:12;
+  }
+  
+  .contact-body{
+    background-color: rgba(233, 233, 233, 0.9);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .col-sm-2_5{
+    width: 20%;
+    display: inline-block;
+    color: white;
+  }
+  
+  .col-sm-2_5:hover{
+    color: white;
+  }
+  
+  .landing-gtd{
+    margin-top: 15vh;
+    height: 30vh;
+  }
+  
+  .coming-soon{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+  }
+  
