@@ -19,6 +19,7 @@ export const ContactForm = (props) => {
                 label="Name"
                 placeholder="Enter Name"
                 name="name"
+                required
             />
             <FieldGroup
                 id="formControlsEmail"
@@ -26,6 +27,7 @@ export const ContactForm = (props) => {
                 label="Email address"
                 placeholder="Enter email"
                 name="email"
+                required
             />
             <FormGroup controlId="formControlsTextarea">
                 <ControlLabel>Message</ControlLabel>
@@ -35,6 +37,7 @@ export const ContactForm = (props) => {
                     name="Message" 
                     cols="30" 
                     rows="10"
+                    required
                 />
             </FormGroup>
             <Button type ="submit" bsStyle="primary">

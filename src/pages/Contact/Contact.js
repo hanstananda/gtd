@@ -14,7 +14,7 @@ export default class Contact extends React.Component {
 					<div className="row default-bg full-height-screen">
 						<div className="col-md-12">
 							<h1>Contact Us</h1>
-							<ContactForm />
+							<ContactForm actionHandler="/send" />
 						</div>
 					</div>
 				</div>
